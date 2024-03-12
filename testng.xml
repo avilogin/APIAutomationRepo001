@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="D:/Documents for Study/Automation class/JavaPrograms/APIAutomationRepo001">
+        <classes>
+            <class name="org.example.DDT.LoginWithDDT">
+                <methods>
+                    <include name="testLoginData"/>
+                </methods>
+            </class>
+            <class name="org.example.crud.INT.TC_Integration">
+                <methods>
+                    <include name="testCreateBooking"/>
+                </methods>
+            </class>
+            <class name="org.example.misc.TestFile">
+                <methods>
+                    <include name="postRequest"/>
+                    <include name="testFillow"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
